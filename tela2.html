@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JFK Turismos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="css3/estilos.css">
+  </head>
+    <body>
+      <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!--Cabeçalho-->
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">JFK Turismo</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="tela1.html">Home <span class="sr-only">(Página atual)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pacotes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tela2.html">Caribe</a>
+                        <a class="dropdown-item" href="#">Disney</a>
+                        <a class="dropdown-item" href="#">Panama</a>
+                      </div>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tela3.html">Minha Conta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </nav>
+      </header>
+        
+        <!--Pacotes de viagem-->
+        <section>
+            <h2 id="titulo">PACOTE CARIBE</h2>
+            <div class="container">
+              <h3>Imperdível viagem para o Caribe</h3>
+              <h4>Fotos:</h4>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 t2" src="img/cb1.jpg" alt="Primeiro Slide">
+                  </div>  
+                  <div class="carousel-item">
+                    <img class="d-block w-100 t2" src="img/cb2.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 t2" src="img/cb4.jpg" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+              
+                <button id="comprar" onclick="window.location.href='tela5.html'"><b>Compre Já!</b></button>
+
+                <h4>Destalhes do pacote:</h4>
+                <p>Lorem ipsum tellus potenti amet egestas sapien integer elit netus leo, faucibus lorem libero sit aliquam imperdiet purus ante phasellus interdum, 
+                tellus egestas a faucibus malesuada sociosqu lobortis nisi sagittis. taciti ac mauris praesent tempus consectetur primis neque in,
+                 nullam facilisis lectus aliquam urna lobortis netus dui, cursus hac interdum turpis nunc nisi et. pretium litora vitae quis commodo ullamcorper cursus faucibus
+                adipiscing, ultrices iaculis pulvinar at aptent velit turpis quis magna, placerat interdum molestie nunc tortor vitae aliquam. amet aliquam sagittis pretium
+                condimentum ad taciti, fames feugiat nullam risus luctus. </p>
+            </div>
+            
+        </section>
+        
+        <footer>
+          JFK
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
